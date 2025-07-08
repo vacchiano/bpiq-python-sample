@@ -3,7 +3,6 @@
 This Python script retrieves drug/catalyst data from the [BPIQ](https://www.bpiq.com/bpiq-api) API and saves the response to a local JSON file.
 
 
-
 ## 🔧 Features
 
 - Authenticates using an API token stored securely in a `credentials.py` file.
@@ -24,6 +23,7 @@ Install it if needed:
 pip install -r requirements.txt
 ```
 
+
 ## 🔐 Setup
 
 1. Create a file named `credentials.py` in the same directory as your script:
@@ -42,11 +42,10 @@ pip install -r requirements.txt
 This keeps your API token secure while letting the script access it via import.
 
 
-
 ## 🚀 Usage
 
 Run the script from the command line:
 
 ```bash
-python fetch_bpiq_data.py
+python script.py
 ```
