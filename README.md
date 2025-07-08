@@ -17,7 +17,7 @@ This Python script retrieves drug/catalyst data from the [BPIQ](https://www.bpiq
 - Python 3.6+
 - [`requests`](https://pypi.org/project/requests/) library
 
-Install it if needed:
+[Create/active venv](https://docs.python.org/3/library/venv.html) and install it if needed:
 
 ```bash
 pip install -r requirements.txt
