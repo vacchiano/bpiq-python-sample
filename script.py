@@ -12,7 +12,6 @@ headers = {
 
 response = requests.get(url, headers=headers)
 
-# Optional: handle response
 if response.status_code == 200:
     data = response.json()
     print(json.dumps(data, indent=2))
